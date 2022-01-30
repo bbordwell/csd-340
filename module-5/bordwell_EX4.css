@@ -1,0 +1,60 @@
+/*Ben Bordwell assignment 5.2 style sheet 1/30/2022 */
+
+h1 {
+    text-align: center;
+}
+
+#image-gallery {
+   display: grid; 
+   margin-top: 10%;
+}
+
+#Harry-Potter {
+    grid-column-start: 1;
+}
+
+#Rainbow-Six {
+    grid-column-start: 2;
+}
+
+#Hobbit {
+    grid-column-start: 3;
+}
+
+img {
+    width: 350px;
+    height: 400px;
+}
+
+h3 {
+    text-align: center;
+}
+
+figure {
+    text-align: center;
+}
+
+h1, h3, figure {
+    font-family: "Oswald", Verdana, Arial, sans-serif;
+    font-weight: 400;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: .75em;
+}
+
+h1, h3, figcaption {
+    color: rgba(128,0,32,1);
+}
+
+.book {
+    border: solid;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+a {
+    float: right;
+    margin-top: 10%;
+}
